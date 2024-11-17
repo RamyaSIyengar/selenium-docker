@@ -3,4 +3,9 @@ services:
   squares:
     image: ramya12/squares
     environment:
-      - NUMBER=${NUM}
+      # - NUMBER=${NUM}
+      - NUMBER=${NUM:-5} # set default value as 3
+      # - NUMBER
+# C:\Users\Ramya\Desktop\selenium-docker\docker-Compose\05-override-env-var>set NUM=3
+# C:\Users\Ramya\Desktop\selenium-docker\docker-Compose\05-override-env-var>docker-compose up
+# C:\Users\Ramya\Desktop\selenium-docker\docker-Compose\05-override-env-var>set NUM=  #unset

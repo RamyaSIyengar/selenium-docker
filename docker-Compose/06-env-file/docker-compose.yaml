@@ -1,0 +1,5 @@
+services:
+  demo:
+    image: ramya12/selenium-app:v1
+    ports:
+      - 80:80
