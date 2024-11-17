@@ -1,0 +1,6 @@
+# version: "3"
+services:
+  squares:
+    image: ramya12/squares
+    environment:
+      - NUMBER=6
